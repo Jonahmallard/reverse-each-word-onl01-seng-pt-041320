@@ -4,5 +4,5 @@ def reverse_each_word(string)
       words.collect do |string|
         reversed_words<< string.reverse 
       end
-    reversed_words.join('')
+    reversed_words.join(' ')
   end
